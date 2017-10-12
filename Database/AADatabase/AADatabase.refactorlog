@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="aa18d553-1188-4dd6-999d-28f3226dac56" ChangeDateTime="10/10/2017 21:18:23">
+    <Property Name="ElementName" Value="[portal].[configuration].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[portal].[configuration]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ConfigId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a7175e29-3697-4284-8d1e-aabc6743b13f" ChangeDateTime="10/10/2017 21:23:19">
+    <Property Name="ElementName" Value="[portal].[Advertisements].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[portal].[Advertisements]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AdvertisementId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="aec7cb72-1b8c-4990-b5fa-8036d8384530" ChangeDateTime="10/10/2017 21:24:06">
+    <Property Name="ElementName" Value="[portal].[Advertisements].[alt_title]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[portal].[Advertisements]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fd91dd0a-ae7d-42dc-904b-42c2ca673058" ChangeDateTime="10/10/2017 21:24:14">
+    <Property Name="ElementName" Value="[portal].[Advertisements].[name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[portal].[Advertisements]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Priority" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ee1b7780-8199-4470-8f8a-64f4cbd626d4" ChangeDateTime="10/10/2017 21:26:45">
+    <Property Name="ElementName" Value="[portal].[AdvertisementCategories].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[portal].[AdvertisementCategories]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AdCategoryId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4e1b6798-0af0-44d3-8a9a-c8f4d1f1c11e" ChangeDateTime="10/10/2017 21:33:50">
+    <Property Name="ElementName" Value="[portal].[GameCategories].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[portal].[GameCategories]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CategoryId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="546f9ce2-608a-4340-85b9-08e3784b903f" ChangeDateTime="10/10/2017 21:37:22">
+    <Property Name="ElementName" Value="[lookups].[FeatureCycles].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[lookups].[FeatureCycles]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CycleId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b6a1f5d6-d59b-47d8-832b-2d861ad2f1fc" ChangeDateTime="10/10/2017 21:37:57">
+    <Property Name="ElementName" Value="[lookups].[FeatureCycles].[CycleId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[lookups].[FeatureCycles]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FeatureCycleId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3bf47cf7-73aa-4b67-aa1b-cf25e7c1399d" ChangeDateTime="10/10/2017 21:39:49">
+    <Property Name="ElementName" Value="[games].[Games].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[games].[Games]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GameId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="950d6362-33ca-4816-9c4b-d2031215ac7f" ChangeDateTime="10/11/2017 01:45:30">
+    <Property Name="ElementName" Value="[portal].[Advertisements].[AdvertisementId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[portal].[Advertisements]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AdId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="90d8d10b-cad6-49c6-a2c9-91da85a45e1c" ChangeDateTime="10/11/2017 01:50:00">
+    <Property Name="ElementName" Value="[portal].[AdClients].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[portal].[AdClients]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ClientId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="676433d2-6fce-4a9f-a109-ab09150d35db" ChangeDateTime="10/11/2017 01:50:43">
+    <Property Name="ElementName" Value="[portal].[AdClients].[Names]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[portal].[AdClients]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+</Operations>

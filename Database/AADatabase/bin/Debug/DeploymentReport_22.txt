@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [content].[GameCategories]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       unnamed constraint on [content].[GameCategories] (Default Constraint)
+     Table rebuild
+       [content].[GameCategories] (Table)
+
+** Supporting actions
+     Drop
+       [content].[FK_GameCategories_Games] (Foreign Key)
+     Create
+       [content].[FK_GameCategories_Games] (Foreign Key)

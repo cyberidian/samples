@@ -1,0 +1,36 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [content] (Schema)
+       [lookups] (Schema)
+       [portal] (Schema)
+       [content].[Categories] (Table)
+       [content].[GameCategories] (Table)
+       [content].[Games] (Table)
+       [lookups].[AdCycles] (Table)
+       [lookups].[FeatureCycles] (Table)
+       [portal].[AdvertisementCategories] (Table)
+       [portal].[Advertisements] (Table)
+       [portal].[configuration] (Table)
+       Default Constraint: unnamed constraint on [content].[Categories] (Default Constraint)
+       Default Constraint: unnamed constraint on [content].[GameCategories] (Default Constraint)
+       Default Constraint: unnamed constraint on [content].[Games] (Default Constraint)
+       Default Constraint: unnamed constraint on [lookups].[AdCycles] (Default Constraint)
+       Default Constraint: unnamed constraint on [lookups].[FeatureCycles] (Default Constraint)
+       Default Constraint: unnamed constraint on [portal].[AdvertisementCategories] (Default Constraint)
+       Default Constraint: unnamed constraint on [portal].[Advertisements] (Default Constraint)
+       Default Constraint: unnamed constraint on [portal].[configuration] (Default Constraint)
+       Default Constraint: unnamed constraint on [portal].[configuration] (Default Constraint)
+       Default Constraint: unnamed constraint on [portal].[configuration] (Default Constraint)
+       Default Constraint: unnamed constraint on [portal].[configuration] (Default Constraint)
+
+** Supporting actions
