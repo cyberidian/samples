@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Confirm Email";
+    Layout = "~/Views/Shared/_framedLayout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+<div class="well text-left well-highlights">
+    <p>
+        Thank you for confirming your email. Please @Html.ActionLink("Click here to Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })
+    </p>
+    <div class="section-spacer"></div>
+    <div class="section-spacer"></div>
+    <div class="section-spacer"></div>
+    <div class="section-spacer"></div>
+</div>

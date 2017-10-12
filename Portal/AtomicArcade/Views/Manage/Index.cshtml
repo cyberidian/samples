@@ -1,0 +1,40 @@
+﻿@model AtomicArcade.SecurityModels.IndexViewModel
+@{
+    ViewBag.Title = "Manage";
+    Layout = "~/Views/Shared/_framedLayout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div class="well text-left well-highlights">
+    <h4>Change your account settings</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Edit Profile:</dt>
+        <dd>coming soon!
+        </dd>
+
+    </dl>
+    <dl class="dl-horizontal">
+        <dt>Password:</dt>
+        <dd>
+            [
+            @if (Model.HasPassword)
+            {
+                @Html.ActionLink("Change your password", "ChangePassword")
+            }
+            else
+            {
+                @Html.ActionLink("Create", "SetPassword")
+            }
+            ]
+        </dd>
+
+    </dl>
+    <div class="section-spacer"></div>
+    <div class="section-spacer"></div>
+    <div class="section-spacer"></div>
+</div>
+<div class="section-spacer"></div>
+<div class="section-spacer"></div>

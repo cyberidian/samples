@@ -1,0 +1,190 @@
+﻿/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.main-menu {
+background-color:#000;
+height:90px;
+}
+
+.main-nav {
+padding-bottom:10px;
+}
+
+.bg-main {
+background-image:url(../images/bg1.png);
+}
+
+.bg-main-container {
+background-color:#000;
+color:#666;
+padding-bottom:5px;
+padding-top:10px;
+}
+.policy-notice{
+    font-size:0.9em;
+
+}
+.bg-features {
+background-color:#000;
+color:#fff;
+padding-bottom:20px;
+padding-top:10px;
+}
+
+.company-footer {
+background-color:#000;
+color:#7E7E7E;
+}
+
+.company-footer h5 {
+font-size:1.5em;
+}
+
+.company-footer h4 {
+font-size:1.1em;
+}
+
+.navbar-brand {
+margin-top:12px;
+}
+
+.bg-green {
+background-color:#00FF5C;
+}
+
+.bg-white {
+background-color:#fff;
+}
+
+.section-spacer {
+margin-bottom:0;
+margin-top:20px;
+padding-bottom:5px;
+padding-top:15px;
+}
+
+.section-title {
+background-color:#000;
+text-align:center;
+}
+
+.section-title h3 {
+color:#fc3;
+font-size:1.9em;
+margin-bottom:0;
+margin-top:20px;
+padding-bottom:5px;
+padding-top:15px;
+}
+
+.well-innerframe {
+border-color:#333;
+border-width:1px;
+margin:auto;
+width:100%;
+padding-left:80px;
+padding-right:80px;
+padding-top:20px;
+padding-bottom:5px;
+}
+.well-innerframe ul {
+    margin-left:5px;
+}
+
+.bg-features h4 {
+color:#69f;
+font-size:1.5em;
+}
+
+.well-frame {
+background-color:#3cf;
+border-color:#666;
+border-width:3px;
+padding:10px;
+}
+
+.feature-a {
+background-color:#6cf;
+border-color:#666;
+border-width:3px;
+}
+
+.feature-b {
+background-color:#96f;
+border-color:#666;
+border-width:3px;
+}
+
+.feature-c {
+background-color:#360;
+border-color:#666;
+border-width:3px;
+}
+
+.ad-banner {
+margin-top:10px;
+}
+
+.ad-banner img {
+margin-right:30px;
+padding-right:30px;
+}
+
+.more-games img {
+margin-bottom:10px;
+margin-left:auto;
+margin-right:auto;
+}
+.category-game-list  {
+    padding:5px;
+}
+.category-game-list ul {
+    list-style:none;
+    margin-top:20px;
+    margin-left:70px;
+}
+.category-game-list li{
+    margin-bottom:20px;
+
+}
+.category-game-list img {
+    margin:4px;
+
+}
+.game-list {
+margin-left:auto;
+margin-right:auto;
+width:50%;
+}
+
+.bg-frame,.featured-games,.navbar-inverse {
+background-color:#000;
+}
+
+.feature-a h3,.feature-b h3,.feature-c h3 {
+color:#ff6;
+font-weight:700;
+}
+
+.feature-a p,.feature-b p,.feature-c p {
+color:#ff6;
+}
+.thumbnail{
+    margin-bottom:20px;
+}
+.well-highlights{
+    width:60%;
+    margin:auto;
+    font-size:0.9em;
+}

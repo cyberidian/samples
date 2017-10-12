@@ -1,0 +1,23 @@
+﻿<nav class="">
+    <div class="container navbar-inverse main-nav">
+        <div class="navbar-header main-menu">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <a class="navbar-brand " href="#"><img src="~/Content/images/AtomicArcade.png" width="188" height="66" alt="Atomic Arcade" /></a>
+        </div>
+        <div class="collapse navbar-collapse">
+            @Html.Partial("_adPartial")
+            <ul class="nav navbar-nav">
+                <li class="@(ViewBag.Current == "Index" ? "active" : "") ">@Html.ActionLink("All Games", "Index", "Portal")</li>
+                <li class="@(ViewBag.Current == "Cards" ? "active" : "") ">@Html.ActionLink("Cards", "Category", "Portal",new { id = "1" },null)</li>
+                <li class="@(ViewBag.Current == "Puzzles" ? "active" : "") ">@Html.ActionLink("Puzzles", "Category", "Portal", new { id = "2" }, null)</li>
+                <li class="@(ViewBag.Current == "Casino" ? "active" : "") ">@Html.ActionLink("Casino", "Category", "Portal", new { id = "3" }, null)</li>
+                <li class="@(ViewBag.Current == "About" ? "active" : "") ">@Html.ActionLink("About", "About", "Portal")</li>
+            </ul>
+            @Html.Partial("_LoginPartial")
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+

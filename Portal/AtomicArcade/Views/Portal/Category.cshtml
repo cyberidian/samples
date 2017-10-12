@@ -1,0 +1,15 @@
+﻿@{
+    Layout = "~/Views/Shared/_framedLayout.cshtml";
+}
+<h2>@ViewBag.CategoryVM.Name</h2>
+<img src="~/Content/images/@ViewBag.CategoryVM.BannerFile" class="text-center" />
+<p>@ViewBag.CategoryVM.Description</p>
+<div class="container text-left well-highlights category-game-list">
+    <ul >
+        @foreach (var game in @ViewBag.CategoryGameList)
+            {
+            <li ><a href="@game.Link" target="_blank"><img src="~/Content/images/@game.Graphic100x100"  /><strong>@game.Name</strong></a></li>
+        }
+    </ul>
+</div>
+<div class="section-spacer"></div>
